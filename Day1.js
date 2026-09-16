@@ -49,3 +49,29 @@ const favoriteSubjectSentence = "My favorite subject is " + favoriteSubject + ".
 console.log(favoriteSubjectSentence);
 
 console.log("Well, it was nice to talk to you. Have a nice day!");
+
+//test
+
+console.log("Hello! I'm your coding fun fact guide!");
+
+let botName="Satyajit";
+let botLocation="Bhubaneswar";
+let favoriteLanguage="JavaScript";
+
+console.log("My name is "+botName+" and I live on "+botLocation+".");
+
+console.log("My favorite programming language is "+favoriteLanguage+".");
+
+let codingFact ="this is a fun fact about "+favoriteLanguage+".";
+
+console.log(codingFact);
+
+codingFact="this is a new fun fact about "+favoriteLanguage+".";
+
+console.log(codingFact);
+
+codingFact="this is a third new fun fact about "+favoriteLanguage+".";
+
+console.log(codingFact);
+
+console.log("It was fun sharing these facts with you. Goodbye! "+"- "+botName+" from "+botLocation+".");
