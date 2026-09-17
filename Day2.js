@@ -239,3 +239,26 @@ console.log(`Health is currently ${health}`);
 
 let newHealth = health--;
 console.log(`Health is still ${newHealth}`);
+
+
+//practice 5
+
+const hasDeveloperJob = true;
+
+if (hasDeveloperJob) {
+  console.log("Timmy is employed as a developer.");
+}
+
+const isTimmyAGamer = false;
+
+if (isTimmyAGamer) {
+  console.log("Timmy loves to play World of Warcraft.");
+}
+
+const timmyAge = 18;
+
+if (timmyAge >= 16) {
+  console.log("Timmy is old enough to drive.");
+} else {
+  console.log("Timmy is not old enough to drive.");
+}
