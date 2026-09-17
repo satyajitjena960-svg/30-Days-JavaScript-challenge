@@ -23,14 +23,14 @@ console.log("I am excited to talk to you.");
 let bot;
 bot = "teacherBot";
 
-let botLocation = "the universe";
+let BotLocation = "the universe";
 
 console.log("Allow me to introduce myself.");
 
 const botIntroduction = "My name is " + bot + ".";
 console.log(botIntroduction);
 
-const botLocationSentence = "I live in " + botLocation + ".";
+const botLocationSentence = "I live in " + BotLocation + ".";
 console.log(botLocationSentence);
 
 bot = "professorBot";
