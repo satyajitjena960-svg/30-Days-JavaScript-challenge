@@ -143,3 +143,15 @@ return `${num} is not a leap year.`
 let year=2004;
 const result=isLeapYear(year);
 console.log(result);
+
+
+
+//truncate string
+
+function truncateString (num1,num2){
+  if(num1.length>num2){
+    return num1.slice(0,num2)+".".repeat(3);
+  }else
+  return num1;
+}
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8))
