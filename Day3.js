@@ -155,3 +155,14 @@ function truncateString (num1,num2){
   return num1;
 }
 console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8))
+
+
+
+//conferm the end
+
+function confirmEnding (num1,num2){
+ if(num1.slice(-num2.length)==num2)
+ return true;
+ else
+ return false;
+}
