@@ -102,3 +102,11 @@ console.log(duplexLoanMsg)
 console.log(condoLoanMsg)
 console.log(carLoanMsg)
 console.log(noLoanMsg)
+
+
+//convert f to c
+
+function convertCtoF(a){
+  return (a * 9/5) + 32
+
+}
