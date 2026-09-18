@@ -52,3 +52,18 @@ let booWho=num=>{
   }else
   return false
 }
+
+
+
+//email masking practice
+
+function maskEmail(email){
+  let string=email.slice(email[1],((email.indexOf("@")-1)));
+return email.replace(email.slice(1,((email.indexOf("@")-1))),"*".repeat(string.length-1));
+}
+const email="Satyajitjena960@gmail.com";
+console.log(maskEmail(email));
+console.log(maskEmail("apple.pie@example.com"))
+console.log(maskEmail("freecodecamp@example.com"))
+console.log(maskEmail("info@test.dev"))
+console.log(maskEmail("user@domain.org"))
