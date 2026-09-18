@@ -42,3 +42,13 @@ function calculateSquareRoot(num) {
 
 console.log(calculateSquareRoot (25));
 console.log(calculateSquareRoot (100));
+
+
+//function practice 1
+
+let booWho=num=>{
+  if(num===true || num===false){
+    return true;
+  }else
+  return false
+}
