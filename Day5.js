@@ -180,3 +180,45 @@ function serializeLedger(ledger) {
 function loadLedger(json) {
   return JSON.parse(json);
 }
+
+
+//Build a  Quiz game
+
+
+let questions=[{category:"Hard",question:"what is java?",choices:["programming language","toy","laptop"],answer:"programming language"
+
+},{category:"easy",question:"what is your name?",choices:["satyajit","rama","hari"],answer:"satyajit"
+
+},{category:"easy",question:"how old are you?",choices:["1","2","3"],answer:"2"
+
+},{category:"hard",question:"what is javascript?",choices:["programming language","toy","laptop"],answer:"programming language"
+
+},{category:"hard",question:"what is object?",choices:["real life entity","i dont know","help"],answer:"real life entity"
+
+},]
+
+
+
+function getRandomQuestion (arr){
+  const min = 1;
+const max = arr.length-1;
+
+const randomNum2 = Math.random() * (max - min) + min;
+  return arr[Math.round(randomNum2)]
+}
+
+function getRandomComputerChoice (arr){
+  const min = 1;
+const max = arr.length-1;
+
+const randomNum2 = Math.random() * (max - min) + min;
+  return arr[Math.round(randomNum2)]
+}
+
+function getResults (obj,choice){
+ if (obj.answer==choice){
+  return "The computer's choice is correct!"
+ }else
+ return `The computer's choice is wrong. The correct answer is: ${obj.answer}`
+
+}
